@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#dat {
+    background-color: #f2501b;
+    min-height: 520px;
+    text-align: justify;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    position: relative;
+    left:15px;
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Make sure the image does not exceed its container */
+}

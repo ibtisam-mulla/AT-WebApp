@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .div1 > h1 {
+    color: rgb(82, 81, 81);
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .div2 > p {
+    text-align: justify;
+    margin: 0 10px;
+  }
+  
+  .div3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-content:flex-start;
+    float: left;
+    max-width: 55%;
+  }
+  
+  .flex-items {
+    width: 100%;
+    flex-direction: column;
+    text-align: justify;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .flex-items > img {
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    float: left;
+  }
+  
+  #svg3,
+  #svg6,
+  #svg5 {
+    position: relative;
+    left: 10%;
+  }
+  
+  .sv2,
+  .sv3,
+  .sv4 {
+    position: relative;
+    left: 15%;
+  }

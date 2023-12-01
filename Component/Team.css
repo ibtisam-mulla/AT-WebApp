@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    padding-bottom: 1%;
+    font-weight: 700;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: hwb(16 14% 14%);
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.cont>div {
+    flex: 0 0 calc(45% - 20px); /* Adjust width for responsiveness and add margin */
+    margin: 10px; /* Add margin for spacing */
+    height: 30%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border radius for rounded corners */
+}

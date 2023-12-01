@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+}
+
+.hed {
+    color: rgb(67, 65, 65);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cont {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.foot {
+    background-color: #f2501b;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+h1{
+    text-align: left;
+    font-weight: 600;
+}
